@@ -1,0 +1,19 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "title": "Keto-Mojo GK+ Meter",
+        "description": "Pick your meter. If it isn't listed, switch it on near a Bluetooth adapter and try again.",
+        "data": {"address": "Meter"}
+      },
+      "confirm": {
+        "description": "Set up {name}? Readings sync automatically each time you switch the meter on."
+      }
+    },
+    "abort": {
+      "already_configured": "This meter is already configured",
+      "no_devices_found": "No Keto-Mojo meter found. Switch it on near a Bluetooth adapter or proxy and try again."
+    }
+  }
+}
